@@ -1,0 +1,53 @@
+body {
+    font-family: Inter;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+a {
+    font-weight: 300;
+    background-color: rgb(226, 226, 226);
+    padding: 5px 0px;
+    text-decoration: none;
+    color: black;
+    margin-top: 4vh;
+    background-color: rgb(255, 255, 255); /* Initial color */
+    border: none;
+    /* Smoothly transition all properties */
+    transition: background-color 0.5s ease; 
+}
+
+a:hover {
+    border-bottom: 1px solid black
+}
+
+
+/*================== RED OUTLINE ====================*/
+
+
+/* @media only screen and (min-width: 0px) and (max-width: 550px) {
+ * { outline: 1px dotted rgba(255,0,0,0.4) !important; }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 850px) {
+ * { outline: 1px dotted rgba(255,0,0,0.4) !important; }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1450px) {
+ * { outline: 1px dotted rgba(255,0,0,0.4) !important; }
+}
+
+@media only screen and (min-width: 1850px) and (max-width: 1900px) {
+ * { outline: 1px dotted rgba(255,0,0,0.4) !important; }
+}
+
+@media only screen and (min-width: 1px) {.debug-mode {display: block;}} */
+
+
+/*====================================================*/
